@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/iladementeev/Desktop/ClassMathFunc-master/TestMathFunc/TestMathFunc.csproj": {}
+  },
+  "projects": {
+    "/Users/iladementeev/Desktop/ClassMathFunc-master/ClassMathFunc/ClassMathFunc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/iladementeev/Desktop/ClassMathFunc-master/ClassMathFunc/ClassMathFunc.csproj",
+        "projectName": "ClassMathFunc",
+        "projectPath": "/Users/iladementeev/Desktop/ClassMathFunc-master/ClassMathFunc/ClassMathFunc.csproj",
+        "packagesPath": "/Users/iladementeev/.nuget/packages/",
+        "outputPath": "/Users/iladementeev/Desktop/ClassMathFunc-master/ClassMathFunc/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/iladementeev/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/iladementeev/Desktop/ClassMathFunc-master/TestMathFunc/TestMathFunc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/iladementeev/Desktop/ClassMathFunc-master/TestMathFunc/TestMathFunc.csproj",
+        "projectName": "TestMathFunc",
+        "projectPath": "/Users/iladementeev/Desktop/ClassMathFunc-master/TestMathFunc/TestMathFunc.csproj",
+        "packagesPath": "/Users/iladementeev/.nuget/packages/",
+        "outputPath": "/Users/iladementeev/Desktop/ClassMathFunc-master/TestMathFunc/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/iladementeev/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/iladementeev/Desktop/ClassMathFunc-master/ClassMathFunc/ClassMathFunc.csproj": {
+                "projectPath": "/Users/iladementeev/Desktop/ClassMathFunc-master/ClassMathFunc/ClassMathFunc.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
